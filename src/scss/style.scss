@@ -1,0 +1,74 @@
+.bgSearch {
+  background-color: black;
+}
+
+.bgMainList {
+  background-color: #141f1f;
+}
+
+.bgTrendySneakers {
+  background-color: gray;
+}
+
+
+.search {
+  text-align: center;
+  position: relative;
+  max-width: 1350px;
+  padding: 50px;
+  &__title {
+    color: white;
+    width: 100%;
+    padding: 80px 80px 150px 80px;
+  }
+  &__containerInput {
+    width: 100%;
+    max-width: 1250px;
+    position: absolute;
+    height: 250px;
+    bottom: -125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.trendySneakers {
+  max-width: 1350px;
+  padding: 130px 50px 40px 50px;
+  h3 {
+    padding-bottom: 20px;
+  }
+  &__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  &__sponsor {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+  }
+}
+
+.mainList {
+  max-width: 1350px;
+  padding: 110px 160px;
+  &__top {
+    padding: 0 110px;
+    color: white;
+    .flex {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &__content {
+    background-color: grey;
+    padding: 0 110px;
+    border-radius: 20px;
+    text-align: center;
+  }
+}
