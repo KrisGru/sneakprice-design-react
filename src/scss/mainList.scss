@@ -1,0 +1,26 @@
+.sneakerItem {
+  padding: 0 110px 0 90px;
+  display: flex;
+  &__data {
+    flex-grow: 1;
+  }
+  &__priceAndStock {
+    position: relative;
+    width: 275px;
+    height: 100px;
+    &__price {
+      position: absolute;
+      left: 0px;
+    }
+    &__comparePrice {
+      position: absolute;
+      right: 10px;
+      top: 20px;
+    }
+    &__stock {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+    }
+  }
+}

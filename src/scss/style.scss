@@ -117,18 +117,40 @@
 .mainList {
   max-width: 1350px;
   padding: 110px 160px;
+  color: white;
   &__top {
     padding: 0 110px;
-    color: white;
+
   }
-  &__content {
-    background-color: grey;
-    padding: 0 110px;
+  &__middle {
+    background: #181818;
     border-radius: 20px;
-    text-align: center;
   }
-  .flex {
-    display: flex;
-    justify-content: space-between;
+  &__paddingContainer {
+    padding: 0 0px;
+  }
+  &__contentHeader {
+    margin: 0 300px 0 210px;
+    padding: 0 5px;
+  }
+  &__pagination {
+    justify-content: center;
+    font-size: 22px;
+    letter-spacing: 7px;
+    border-top: solid 2px grey;
+    padding: 20px 0;
+    a, a:hover, a:focus, a:active {
+     text-decoration: none;
+   }
   }
 }
+
+  .flex {
+    display: flex;
+    &__spaceBetween {
+      justify-content: space-between;
+    }
+    &__spaceAround {
+      justify-content: space-around;
+    }
+  }
