@@ -10,16 +10,15 @@
   background-color: gray;
 }
 
-
 .search {
   text-align: center;
   position: relative;
   max-width: 1350px;
   padding: 50px;
-  color: white;
   &__title {
     width: 100%;
     padding: 80px 80px 150px 80px;
+    color: white;
     p {
       letter-spacing: 0.5em;
     }
@@ -117,17 +116,18 @@
 .mainList {
   max-width: 1350px;
   padding: 110px 160px;
-  color: white;
   &__top {
     padding: 0 110px;
-
+    h3 {
+      color: white;
+    }
   }
   &__middle {
     background: #181818;
     border-radius: 20px;
   }
   &__paddingContainer {
-    padding: 0 0px;
+    padding: 20px 0px;
   }
   &__contentHeader {
     margin: 0 300px 0 210px;
@@ -135,22 +135,26 @@
   }
   &__pagination {
     justify-content: center;
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 7px;
-    border-top: solid 2px grey;
-    padding: 20px 0;
-    a, a:hover, a:focus, a:active {
+    border-top: solid 1.5px grey;
+    padding: 40px 0;
+    a, a:hover, a:focus {
      text-decoration: none;
+     color: #6e6e77;
+   }
+   a:active {
+     color: white;
    }
   }
 }
 
-  .flex {
-    display: flex;
-    &__spaceBetween {
-      justify-content: space-between;
-    }
-    &__spaceAround {
-      justify-content: space-around;
-    }
+.flex {
+  display: flex;
+  &__spaceBetween {
+    justify-content: space-between;
   }
+  &__spaceAround {
+    justify-content: space-around;
+  }
+}

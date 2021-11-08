@@ -23,6 +23,11 @@ const MainList = () => {
               {/*list or table? List*/}
               <ul className="mainList__contentItem">
                 <SneakerItem />
+                <SneakerItem />
+                <SneakerItem />
+                <SneakerItem />
+                <SneakerItem />
+                <SneakerItem />
               </ul>
 
               </div>

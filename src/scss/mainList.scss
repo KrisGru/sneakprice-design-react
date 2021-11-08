@@ -1,26 +1,72 @@
+
 .sneakerItem {
-  padding: 0 110px 0 90px;
+  padding: 40px 110px 40px 90px;
+  margin-left: -35px;
+  width: 100%;
   display: flex;
-  &__data {
-    flex-grow: 1;
+  &__image {
+    display: flex;
+    p.position {
+      transform: rotate(-90deg);
+      align-self: flex-end;
+    }
+    div.img {
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 5px;
+    }
   }
-  &__priceAndStock {
-    position: relative;
-    width: 275px;
-    height: 100px;
-    &__price {
-      position: absolute;
-      left: 0px;
+  &__data {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-left: 15px;
+  }
+}
+
+
+.basicData {
+  display: flex;
+  position:relative;
+  padding: 5px 0;
+  &__specificName {
+    position: absolute;
+    top: 15px;
+  }
+  &__name {
+      align-self: end;
+      padding: 0 15px 0 0;
+      color: #fff;
+  }
+  &__brand {
+    align-self: end;
+    padding-left: 10px;
+    border-left: solid 3px #6e6e77;
+  }
+}
+
+.awgPrice {
+  text-align: end;
+  &__stock {
+    padding: 0 20px 5px 0;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  &__price {
+    display: inline;
+    padding-right: 30px;
+    strong {
+      color: #fff;
+      font-size: 1.2rem;
     }
-    &__comparePrice {
-      position: absolute;
-      right: 10px;
-      top: 20px;
-    }
-    &__stock {
-      position: absolute;
-      right: 10px;
-      top: 5px;
-    }
+  }
+  &__btn {
+    display: inline;
+    border-radius: 25px;
+    background-color: rgb(0, 97, 32, 0.4);
+    padding: 10px 25px;
+    color: rgb(26, 255, 26);
   }
 }
