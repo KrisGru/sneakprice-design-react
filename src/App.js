@@ -2,7 +2,7 @@ import './scss/main.scss';
 import TopBar from './components/TopBar.js';
 import Search from './components/Search';
 import TrendySneakers from './components/TrendySneakers';
-import MainList from './components/MainList';
+import SneakerList from './components/SneakerList';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
         <TopBar />
         <Search />
         <TrendySneakers />
-        <MainList />
+        <SneakerList />
         <Footer />
       </div>
     </>

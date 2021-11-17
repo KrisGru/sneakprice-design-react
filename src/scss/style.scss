@@ -128,7 +128,7 @@
   }
 }
 
-.sneaker {
+.TrendySneaker {
   position: relative;
   height: 175px;
   width: 300px;
@@ -153,7 +153,10 @@
   &__number {
     left: 30px;
     bottom: 30px;
-    font-size: 50px;
+    font-size: 1.6rem;
+    .dot {
+
+    }
   }
   &__img {
     left: 90px;
