@@ -1,7 +1,12 @@
 //section 4
 .bgMainList {
-  background-color: #141f1f;
+  background-image: url("../assets/bg list.png");
+  background-repeat: round;
+  background-color: #17171c;
+  border-top: solid 3px;
+  border-top-color: rgb(3,177,15);
 }
+
 
 //section 4 - mainList
 .mainList {
@@ -15,6 +20,7 @@
   }
   &__middle {
     background: #181818;
+    opacity: 0.95;
     border-radius: 20px;
   }
   &__paddingContainer {
@@ -38,10 +44,23 @@
       transform: rotate(-90deg);
       align-self: flex-end;
     }
-    div.img {
+    div.img1 {
       width: 90px;
       height: 90px;
       background-color: white;
+      background-image: url("../assets/shoeList1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 10px;
+      margin-left: 5px;
+    }
+    div.img2 {
+      width: 90px;
+      height: 90px;
+      background-color: white;
+      background-image: url("../assets/shoeList2.png");
+      background-repeat: no-repeat;
+      background-position: center;
       border-radius: 10px;
       margin-left: 5px;
     }

@@ -2,6 +2,7 @@ import SneakerItem from './SneakerItem';
 
 const SneakerList = () => (
   <div className="bgMainList">
+  <span class="half-a-border-on-top"></span>
     <div className="mainList">
       <section className="mainList__top">
         <div className=" flex flex__spaceBetween">
@@ -17,12 +18,12 @@ const SneakerList = () => (
             <p>Awg Price</p>
           </section>
           <ul className="mainList__contentItem">
-            <SneakerItem position="01" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150" />
-            <SneakerItem position="02" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="1" price="100"/>
-            <SneakerItem position="03" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150"/>
-            <SneakerItem position="04" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="1" price="120"/>
-            <SneakerItem position="05" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="145"/>
-            <SneakerItem position="06" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="2" price="140"/>
+            <SneakerItem position="01" img="img1" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150" />
+            <SneakerItem position="02" img="img2" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="1" price="100"/>
+            <SneakerItem position="03" img="img1" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150"/>
+            <SneakerItem position="04" img="img2" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="1" price="120"/>
+            <SneakerItem position="05" img="img1" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="145"/>
+            <SneakerItem position="06" img="img2" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="2" price="140"/>
           </ul>
         </div>
         <nav aria-label="Page navigation">

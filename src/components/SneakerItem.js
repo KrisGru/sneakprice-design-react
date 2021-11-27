@@ -1,10 +1,10 @@
 import { BsArrowRight } from 'react-icons/bs';
 
-const SneakerItem = ({ position, specificName, name, brand, stock, price }) => (
+const SneakerItem = ({ position, img, specificName, name, brand, stock, price }) => (
   <li className="sneakerItem">
     <div className="sneakerItem__image">
       <p className="position">{position}</p>
-      <div className="img"></div>
+      <div className={img}></div>
     </div>
     <div className="sneakerItem__data">
       <div className="basicData">

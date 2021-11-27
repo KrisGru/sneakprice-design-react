@@ -1,17 +1,13 @@
-import { BsDot } from 'react-icons/bs';
+const TrendySneaker = ({ number, brand, price, name }) => (
+  <div className="TrendySneaker">
+      <p className="TrendySneaker__brand">{brand}</p>
+      <p className="TrendySneaker__price">${price}</p>
+      <p className="TrendySneaker__number">{number}<p className="dot">.</p></p>
+      <p className="TrendySneaker__img"></p>
+      <p className="TrendySneaker__name">{name}</p>
+  </div>
+)
 
-const TrendySneaker = ({ number, brand, price, name }) => {
-  const img = "picture area"
-  return (
-    <div className="TrendySneaker">
-        <p className="TrendySneaker__brand">{brand}</p>
-        <p className="TrendySneaker__price">${price}</p>
-        <p className="TrendySneaker__number">{number}<p className="dot">.</p></p>
-        <p className="TrendySneaker__img">{img}</p>
-        <p className="TrendySneaker__name">{name}</p>
-    </div>
-  )
-}
 
 export default TrendySneaker;
 
