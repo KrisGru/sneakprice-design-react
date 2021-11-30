@@ -2,7 +2,7 @@ import SneakerItem from './reusable/SneakerItem';
 
 const SneakerList = () => (
   <div className="bgSneakerList">
-  <span class="half-a-border-on-top"></span>
+  <span className="half-a-border-on-top"></span>
     <div className="sneakerList">
       <section className="sneakerList__top">
         <div className="flex flex__spaceBetween">
@@ -27,7 +27,7 @@ const SneakerList = () => (
           </ul>
         </div>
         <nav aria-label="Page navigation">
-          <ul class="pagination">
+          <ul className="pagination">
             <li>
               <a href="./" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
