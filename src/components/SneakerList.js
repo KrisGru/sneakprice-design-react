@@ -1,23 +1,23 @@
-import SneakerItem from './SneakerItem';
+import SneakerItem from './reusable/SneakerItem';
 
 const SneakerList = () => (
-  <div className="bgMainList">
+  <div className="bgSneakerList">
   <span class="half-a-border-on-top"></span>
-    <div className="mainList">
-      <section className="mainList__top">
-        <div className=" flex flex__spaceBetween">
+    <div className="sneakerList">
+      <section className="sneakerList__top">
+        <div className="flex flex__spaceBetween">
           <h3><strong>Find the deal for sneakers</strong></h3>
           <p>Page 1 of 10</p>
         </div>
         <p>Our list of 10000+ sneakers and where to buy them</p>
       </section>
-      <section className="mainList__middle">
-        <div className="mainList__paddingContainer">
-          <section className="mainList__contentHeader flex flex__spaceBetween">
+      <section className="sneakerList__middle">
+        <div className="sneakerList__paddingContainer">
+          <section className="sneakerList__contentHeader flex flex__spaceBetween">
             <p>Name</p>
             <p>Awg Price</p>
           </section>
-          <ul className="mainList__contentItem">
+          <ul className="sneakerList__contentItem">
             <SneakerItem position="01" img="img1" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150" />
             <SneakerItem position="02" img="img2" specificName="Retro High" name="Air Jordan 1" brand="Nike" stock="1" price="100"/>
             <SneakerItem position="03" img="img1" specificName="Cloud White" name="Ultraboost 21" brand="Adidas" stock="3" price="150"/>

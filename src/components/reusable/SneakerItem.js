@@ -15,7 +15,7 @@ const SneakerItem = ({ position, img, specificName, name, brand, stock, price })
       <div className="awgPrice">
         <p className="awgPrice__stock">in {stock} stores</p>
         <p className="awgPrice__price"><strong>{price}</strong>USD</p>
-        <button className="awgPrice__btn">Compare price <BsArrowRight /></button>
+        <button className="awgPrice__btn" onClick={()=> alert("We don't have this shoes :( ")}>Compare price <BsArrowRight /></button>
       </div>
     </div>
   </li>

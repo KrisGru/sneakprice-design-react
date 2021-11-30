@@ -1,15 +1,21 @@
 //section 4
-.bgMainList {
+.bgSneakerList {
   background-image: url("../assets/bg list.png");
   background-repeat: round;
   background-color: #17171c;
-  border-top: solid 3px;
-  border-top-color: rgb(3,177,15);
+  border-top: solid 3px green;
 }
 
+// use flex i top section in sneakerList
+.flex {
+  display: flex;
+  &__spaceBetween {
+    justify-content: space-between;
+  }
+}
 
 //section 4 - mainList
-.mainList {
+.sneakerList {
   max-width: 1350px;
   padding: 110px 160px;
   &__top {
@@ -20,7 +26,7 @@
   }
   &__middle {
     background: #181818;
-    opacity: 0.95;
+    opacity: 0.97;
     border-radius: 20px;
   }
   &__paddingContainer {
@@ -30,14 +36,16 @@
     margin: 0 300px 0 210px;
     padding: 0 5px;
   }
-
+  &__contentItem {
+    padding: 0;
+  }
 }
 
 .sneakerItem {
-  padding: 40px 110px 40px 90px;
-  margin-left: -35px;
-  width: 100%;
   display: flex;
+  width: 100%;
+  padding: 40px 110px 40px 90px;
+  cursor: pointer;
   &__image {
     display: flex;
     p.position {
@@ -73,6 +81,10 @@
   }
 }
 
+.sneakerItem:hover {
+  background-color: #141414;
+  transition: 0.4s;
+}
 
 .basicData {
   display: flex;
@@ -115,6 +127,11 @@
     background-color: rgb(0, 97, 32, 0.4);
     padding: 10px 25px;
     color: rgb(26, 255, 26);
+    opacity: 0.95;
+  }
+  &__btn:hover {
+    color: rgb(0, 355, 0);
+    background-color: rgb(0, 97, 32, 0.6);
   }
 }
 
@@ -126,13 +143,17 @@
   padding: 40px 0;
   a, a:hover, a:focus {
    text-decoration: none;
-   color: #6e6e77;
+   color: inherit;
  }
  a:active {
-   color: white;
+   color: rgb(0, 97, 32, 0.4);
  }
  li:nth-child(2)>a {
-   color: white;
+   color: rgb(26, 255, 26);
    font-weight: bold;
+ }
+ a:hover {
+   font-size: 1.2rem;
+   color: white;
  }
 }

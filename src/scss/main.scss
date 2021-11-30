@@ -1,13 +1,13 @@
 
 // Vendors
-@import 'normalize', 'style', 'mainList';
+@import 'normalize', 'style', 'sneakerList', 'reusable';
 //font inter
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 $main-font: 'Inter', sans-serif;
 
 #root {
   font-family: $main-font;
-  color: #6e6e77;
+  color: #a5a7a7;
 }
 
 html {
@@ -25,14 +25,4 @@ body {
   overflow-y: hidden;
   max-width: 100vw;
   margin: auto;
-}
-
-.flex {
-  display: flex;
-  &__spaceBetween {
-    justify-content: space-between;
-  }
-  &__spaceAround {
-    justify-content: space-around;
-  }
 }

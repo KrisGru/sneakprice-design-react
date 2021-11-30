@@ -16,7 +16,6 @@
   background-color: #17171c;
 }
 
-
 //section 4 mainList has own file mainList.scss
 
 //section 5
@@ -31,50 +30,43 @@
 // section 1 - TopBar
 .navTopBar {
   max-width: 1350px;
-  padding: 10px 0;
+  max-height: 80px;
+  padding: 10px 50px;
 }
 
 .topBar {
   display: flex;
   align-items: center;
-  margin: 0 50px;
-  padding: 0px;
-  font-size: 0.6rem;
+  margin:0;
+  padding: 20px 0;
+  font-size: 0.7rem;
   list-style: none;
   &__logo {
     flex-grow: 2;
-    color: white;
   }
   &__tabs {
     flex-grow: 1;
     text-align: end;
-    color: white;
     text-transform: uppercase;
     font-weight: 700;
-    a, a:hover {
+    .icon, .icon:hover {
+      color: white;
+    }
+    a {
       padding: 0 15px;
       text-decoration: none;
+      color: inherit;
+    }
+    a:hover {
       color: white;
+      transition: 0.3s;
     }
   }
   &__variables {
     display: flex;
-    justify-content: flex-end;
     padding-left: 40px;
     text-transform: uppercase;
     font-weight: 700;
-    label {
-      align-self: center;
-      margin-left: 25px;
-    }
-    select {
-      padding: 5px;
-      margin-left: 10px;
-      border-radius: 10px;
-      color: white;
-      font-weight: 800;
-      background-color: black;
-    }
   }
 }
 
@@ -114,9 +106,21 @@
       padding: 0 30px;
     }
   }
-  div > p, section {
+  &__lastChoosen {
     flex-basis: 100%;
     margin: 10px 0;
+    font-size: 0.9rem;
+    section {
+      display: inline;
+      border-right: 2px solid;
+      margin-right: 15px;
+      padding-right: 5px;
+    }
+    p {
+      display: inline;
+      margin: 0 15px;
+      color: grey;
+    }
   }
 }
 
@@ -126,73 +130,56 @@
   padding: 130px 50px 40px 50px;
   color: #fff;
   h3 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    img {
+      vertical-align: inherit;
+    }
   }
   &__list {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    padding: 0;
     list-style: none;
+    padding: 0;
+    margin: 0;
   }
-  &__sponsor {
-      margin-left: 411px;
-      display: flex;
-      padding: 100px 0 0 0;
-      width: 450px;
-    .stockX {
-      background-image: url("../assets/StockX.png");
-      background-repeat: no-repeat;
-      height: 50px;
-      width: 100%;
-    }
-    .fightClub {
-      background-image: url("../assets/fight club.png");
-      background-repeat: no-repeat;
-      height: 50px;
-      width: 100%;
-      color: green;
-    }
-    .stadiumGoods {
-      background-image: url("../assets/stadium goods logo.png");
-      background-repeat: no-repeat;
-      height: 50px;
-      width: 100%;
-    }
-    .goat {
-      background-image: url("../assets/goat.png");
-      background-repeat: no-repeat;
-      height: 50px;
-      width: 100%;
+  &__sponsors {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    padding: 120px 0 30px;
+    li {
+      margin: 0 15px;
     }
   }
 }
 
-.TrendySneaker {
+.trendySneaker {
+  opacity: 0.7;
   position: relative;
   height: 175px;
-  width: 300px;
+  width: 280px;
   border-radius: 15px;
   border: solid 2px black;
   background-color: grey;
+  cursor: pointer;
   p {
     position: absolute;
     font-size: 1.2rem;
   }
   &__brand {
     top: 15px;
-    left: 30px;
+    left: 25px;
     text-transform: uppercase;
   }
   &__price {
-      right: 30px;
-      top:15px;
-      padding: 2px 6px;
-      background-color: green;
-      border-radius: 5px;
+    right: 25px;
+    top:15px;
+    padding: 2px 6px;
+    background-color: green;
+    border-radius: 5px;
   }
   &__number {
-    left: 30px;
+    left: 25px;
     bottom: 30px;
     font-size: 1.6rem;
   }
@@ -206,17 +193,27 @@
   }
   &__name {
     bottom: 0px;
-    left: 30px;
+    left: 25px;
   }
+}
+
+.trendySneaker:hover {
+  opacity: 1;
+  border: none;
+  transition: 0.5s;
 }
 
 //section 5 - Footer
 
 .footer {
-  color: white;
   max-width: 1100px;
   display: flex;
   padding-left:100px;
+  p:hover {
+    cursor: pointer;
+    transition: 0.6s;
+    color: white;
+  }
   .part1 {
     flex-basis: 80%;
     display:flex;
@@ -226,6 +223,7 @@
       display:flex;
       .hd {
         font-weight: bold;
+        color: white;
       }
     }
     .bottom {
@@ -237,21 +235,22 @@
       border-top: 1px solid grey;
     }
   }
-  .scroll {
-
-  }
-
 }
 
-label {
-  margin-left: 25px;
-  text-transform: uppercase;
-}
-select {
-  padding: 5px;
-  margin-left: 10px;
-  border-radius: 10px;
+.scrollBtn {
+  background-color: inherit;
+  border-radius: 20px;
+  border: 1px solid grey;
   color: white;
-  font-weight: 800;
-  background-color: black;
+  font-size: 0.9rem;
+  padding: 8px 17px;
+}
+
+.scrollBtn:hover {
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+  transition: 0.8s;
+  border: 1px solid black;
 }
