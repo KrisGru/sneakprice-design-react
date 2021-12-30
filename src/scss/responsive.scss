@@ -1,0 +1,101 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  p, h3 {
+    font-size: 0.7rem;
+  }
+
+  .bg {
+    padding: 0 10px;
+  }
+  .search__title {
+    padding: 40px 40px 120px 40px;
+   }
+   .search div input {
+    width: 70%;
+    height: 45px;
+    border: solid 7px lightgray;
+    padding: 0 30px;
+  }
+  .search__lastChoosen {
+    font-size: 0.6rem;
+  }
+  .search div svg {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: calc(15% + 10px);
+  }
+  .trendySneakers {
+    padding: 90px 0px 10px 0px;
+    &__list li {
+      margin: 3px 0;
+    }
+    &__sponsors {
+      padding: 50px 0 40px 0;
+    }
+  }
+
+  .sneakerList {
+    padding: 50px 20px;
+    &__top {
+      padding: 0 20px;
+    }
+
+    &__contentHeader {
+      margin: 0 100px 0 100px;
+    }
+  }
+
+  .sneakerItem {
+    padding: 15px 10px 15px 10px;
+    &__data {
+      padding-left: 3px;
+    }
+  }
+
+  .basicData {
+    &__name {
+      padding: 0 5px 0 0;
+    }
+    &__brand {
+      padding-left: 5px;
+    }
+  }
+
+
+  .awgPrice {
+    p {
+      font-size: 0.6rem;
+    }
+    &__btn {
+      font-size: 0.8rem;
+      padding: 7px 15px;
+    }
+  }
+
+  .pagination {
+    padding: 20px 0;
+  }
+
+
+
+  .bgFooter {
+    padding: 30px 10px 30px;
+  }
+
+
+
+  .footer {
+    padding-left:10px;
+    .part1 .bottom {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+  }
+
+  .scrollBtn {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+  }
+
+}

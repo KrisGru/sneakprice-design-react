@@ -1,8 +1,7 @@
 import SneakerItem from './reusable/SneakerItem';
 
 const SneakerList = () => (
-  <div className="bgSneakerList">
-  <span className="half-a-border-on-top"></span>
+  <div className="bgSneakerList bg">
     <div className="sneakerList">
       <section className="sneakerList__top">
         <div className="flex flex__spaceBetween">

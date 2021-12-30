@@ -8,7 +8,7 @@ import { GrFormSearch } from 'react-icons/gr';
 const Search = () => {
   const [input, setInput] = useState('');
   return (
-    <div className="bgSearch">
+    <div className="bgSearch bg">
       <div className="search">
         <div className="search__title">
           <p>FIND THE BEST DEALS</p>
@@ -19,7 +19,7 @@ const Search = () => {
             <p>Search for any sneakers and find the best prices online</p>
             <GrFormSearch />
             <BiSubdirectoryLeft className="submitIcon" onChange={(e)=>setInput(e.target.value)} onClick={(event) => {alert('Your nike wait for you in another shop'); setInput("")}}/>
-            <input value={input} type="text"
+            <input className="input1" value={input} type="text"
               placeholder="Nike air..."
               onChange={(e)=>setInput(e.target.value)}
               onKeyPress={(event) => {if(event.key=== 'Enter'){alert('Your nike wait for you in another shop'); setInput("")}}}/>

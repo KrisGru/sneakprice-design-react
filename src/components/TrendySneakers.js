@@ -6,7 +6,7 @@ import stadiumGoods from '../assets/stadium goods logo.png'
 import goat from '../assets/goat.png'
 
 const TrendySneakers = () => (
-  <div className="bgTrendySneakers">
+  <div className="bgTrendySneakers bg">
     <div className="trendySneakers">
       <h3><img src={fireEmoji} alt="fire emoji"/> Today's trending sneakers</h3>
       <ul className="trendySneakers__list">

@@ -4,7 +4,7 @@ import { FaShoppingCart } from 'react-icons/fa';
 import logo from '../assets/Sneakprice.png'
 
 const TopBar = () => (
-  <div className="bgTopBar">
+  <div className="bgTopBar bg">
     <nav className="navTopBar">
       <ul className="topBar">
         <li className="topBar__logo">
