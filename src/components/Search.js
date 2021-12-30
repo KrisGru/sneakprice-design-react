@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import shoppingBags from '../assets/Shopping Bags.png';
+import { BiSubdirectoryLeft } from 'react-icons/bi';
+import { GrFormSearch } from 'react-icons/gr';
+
+
 
 const Search = () => {
   const [input, setInput] = useState('');
@@ -13,6 +17,8 @@ const Search = () => {
         <div className="search__containerInput">
           <div>
             <p>Search for any sneakers and find the best prices online</p>
+            <GrFormSearch />
+            <BiSubdirectoryLeft className="submitIcon" onChange={(e)=>setInput(e.target.value)} onClick={(event) => {alert('Your nike wait for you in another shop'); setInput("")}}/>
             <input value={input} type="text"
               placeholder="Nike air..."
               onChange={(e)=>setInput(e.target.value)}

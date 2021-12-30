@@ -25,7 +25,7 @@ const Footer =() => (
         <span><SelectSizes label="CURRENCY" name="currency" option1="USD" option2="GBP" option3="EUR" option4="PLN" /></span>
       </div>
       </div>
-      <div><button className="scrollBtn"><BsArrowUp/>Scroll to top</button></div>
+      <div><button className="scrollBtn" onClick={() => document.documentElement.scrollTop = 0} title="Go to top"><BsArrowUp/>Scroll to top</button></div>
     </div>
   </div>
 )
