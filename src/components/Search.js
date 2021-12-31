@@ -25,7 +25,7 @@ const Search = () => {
               onKeyPress={(event) => {if(event.key=== 'Enter'){alert('Your nike wait for you in another shop'); setInput("")}}}/>
             <div className="search__lastChoosen">
               <section>RECENTLY SEARCHED </section>
-              <p>Yeezy 350</p><p>Jordan Black</p><p>Alexander McQueen</p>
+              <p onClick={() => alert("Choose another store")}>Yeezy 350</p><p onClick={() => alert("Choose another store")}>Jordan Black</p><p onClick={() => alert("Choose another store")}>Alexander McQueen</p>
             </div>
           </div>
         </div>
