@@ -1,1 +1,58 @@
-// szablon z sm tylko popraw dopasuj go troche i będzie klasa
+// popraw kod aby był czytelniejszy 
+/* medium devices (phones, min: 600px and max: 767.98px) */
+@media only screen and (min-width: 992px) and (max-width: 1198.98px){
+// section 1 topBar - nothing has changed
+// section 2 search
+  .search div input {
+    width: 60%;
+    height: 60px;
+    border: solid 10px lightgray;
+    padding: 0 40px;
+  }
+  .search div input:hover, .search div input:focus {
+    border: solid 10px gray;
+  }
+  .search__lastChoosen {
+    font-size: 0.8rem;
+  }
+  .search div svg {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: calc(20% + 15px);
+  }
+  .search div .submitIcon {
+    margin-left: calc(80% - 45px);
+  }
+// section 3 trendySneaker nothing has changed
+// section 4 mainList
+  .sneakerList {
+    max-width: 1350px;
+    padding: 110px 80px;
+    &__top {
+      padding: 20px 65px;
+    }
+    &__contentHeader {
+      margin: 0px 200px 0 180px;
+    }
+  }
+
+  .sneakerItem {
+    padding: 30px 40px;
+    &__data {
+      padding-left: 25px;
+    }
+  }
+//section 5 footer
+  .bgFooter {
+    padding: 100px;
+  }
+
+  .footer {
+    padding-left:10px;
+    .part1 .bottom {
+      padding-top: 40px;
+      margin-top: 40px;
+    }
+  }
+
+}

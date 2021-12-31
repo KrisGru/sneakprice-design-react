@@ -3,11 +3,11 @@
 @media only screen and (min-width: 768px) and (max-width: 991.98px){
 //background padding
   .bg {
-    padding: 0 10px;
+    padding: 5px 30px;
   }
 // change in all website
   p, h3 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 //changes in reasuble component
   label {
@@ -15,8 +15,8 @@
     margin-left: 20px;
   }
   #select {
-    font-size: 0.6rem;
-    padding: 3px;
+    font-size: 0.7rem;
+    padding: 4px;
     margin-left: 5px;
   }
 // section 1 topBar
@@ -35,19 +35,14 @@
     }
   }
 // section 2 search
-//OPISZ SEKCJE JAK WROCISZ I POSPRAWDZAJ KOD ABY
-// BYL CZYTELNY. ZERKNIJ NA RESIZERZE.
-  .search__title {
-    padding: 40px 40px 120px 40px;
-  }
   .search div input {
     width: 70%;
     height: 45px;
-    border: solid 5px lightgray;
+    border: solid 7px lightgray;
     padding: 0 30px;
   }
   .search div input:hover, .search div input:focus {
-    border: solid 5px gray;
+    border: solid 7px gray;
   }
   .search__lastChoosen {
     font-size: 0.6rem;
@@ -58,43 +53,39 @@
     margin-left: calc(15% + 10px);
   }
   .search div .submitIcon {
-    margin-left: calc(77%);
+    margin-left: calc(80%);
   }
 // section 3 trendySneaker
   .trendySneakers {
-    padding: 90px 0px 10px 0px;
-    &__list li {
-      margin: 3px 0;
-    }
+    padding: 110px 0px 10px 0px;
     &__sponsors {
-      padding: 50px 0 40px;
+      padding: 60px 0 40px;
     }
   }
 // section 4 mainList
   .sneakerList {
     padding: 50px 20px;
     &__top {
-      padding: 0 20px;
+      padding: 20px 40px;
     }
-
     &__contentHeader {
-      margin: 0 100px 0 100px;
+      margin: 0px 180px 0 160px;
     }
   }
 
   .sneakerItem {
-    padding: 15px 10px 15px 10px;
+    padding: 15px 20px 15px 20px;
     &__data {
-      padding-left: 3px;
+      padding-left: 10px;
     }
   }
 
   .basicData {
     &__name {
-      padding: 0 5px 0 0;
+      padding-right: 10px;
     }
     &__brand {
-      padding-left: 5px;
+      padding-left: 10px;
     }
   }
 
@@ -103,8 +94,8 @@
       font-size: 0.6rem;
     }
     &__btn {
-      font-size: 0.8rem;
-      padding: 7px 15px;
+      font-size: 0.9rem;
+      padding: 10px 20px;
     }
   }
 
@@ -113,7 +104,7 @@
   }
 //section 5 footer
   .bgFooter {
-    padding: 30px 10px 30px;
+    padding: 30px;
   }
 
   .footer {
