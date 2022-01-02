@@ -4,11 +4,7 @@
   .bg {
     padding: 0 10px;
   }
-// change in all website
-  p, h3 {
-    font-size: 0.7rem;
-  }
-//changes in reasuble component
+//changes in Select.js component
   label {
     font-size: 0.6rem;
     margin-left: 20px;
@@ -25,8 +21,8 @@
       text-align: start;
       margin-left: 15px;
       a {
-        display: inline-block;
-        margin: 3px 0;
+        white-space: nowrap;
+        margin: 4px 0;
       }
     }
     &__variables {
@@ -34,8 +30,6 @@
     }
   }
 // section 2 search
-//OPISZ SEKCJE JAK WROCISZ I POSPRAWDZAJ KOD ABY
-// BYL CZYTELNY. ZERKNIJ NA RESIZERZE.
   .search__title {
     padding: 40px 40px 120px 40px;
   }
@@ -57,11 +51,11 @@
     margin-left: calc(15% + 10px);
   }
   .search div .submitIcon {
-    margin-left: calc(77%);
+    margin-left: calc(85% - 40px);
   }
 // section 3 trendySneaker
   .trendySneakers {
-    padding: 90px 0px 10px 0px;
+    padding: 140px 0px 50px 0px;
     &__list li {
       margin: 3px 0;
     }
@@ -71,11 +65,13 @@
   }
 // section 4 mainList
   .sneakerList {
-    padding: 50px 20px;
+    padding: 70px 20px;
+    p {
+      font-size: 0.7rem;
+    }
     &__top {
       padding: 0 20px;
     }
-
     &__contentHeader {
       margin: 0 150px 0 130px;
     }
@@ -84,7 +80,7 @@
   .sneakerItem {
     padding: 15px 10px 15px 10px;
     &__data {
-      padding-left: 3px;
+      padding-left: 5px;
     }
   }
 

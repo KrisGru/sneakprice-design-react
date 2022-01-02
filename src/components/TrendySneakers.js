@@ -1,13 +1,11 @@
-import TrendySneaker from './reusable/TrendySneaker';
-import fireEmoji from '../assets/fire emoji.png';
-
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-
-import stockX from '../assets/StockX.png'
+import TrendySneaker from './reusable/TrendySneaker';
 import fightClub from '../assets/fight club.png'
-import stadiumGoods from '../assets/stadium goods logo.png'
+import fireEmoji from '../assets/fire emoji.png';
 import goat from '../assets/goat.png'
+import stadiumGoods from '../assets/stadium goods logo.png'
+import stockX from '../assets/StockX.png'
 
 const TrendySneakers = () => {
   const responsive = {
@@ -28,27 +26,26 @@ const TrendySneakers = () => {
       items: 1
     }
   };
-
   return (
-  <div className="bgTrendySneakers bg">
-    <div className="trendySneakers">
-      <h3><img src={fireEmoji} alt="fire emoji"/> Today's trending sneakers</h3>
-      <Carousel responsive={responsive}>
-        <div><TrendySneaker number="01" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
-        <div><TrendySneaker number="02" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
-        <div><TrendySneaker number="03" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
-        <div><TrendySneaker number="04" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
-      </Carousel>
+    <div className="bgTrendySneakers bg">
+      <div className="trendySneakers">
+        <h3><img src={fireEmoji} alt="fire emoji"/> Today's trending sneakers</h3>
+        <Carousel responsive={responsive}>
+          <div><TrendySneaker number="01" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
+          <div><TrendySneaker number="02" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
+          <div><TrendySneaker number="03" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
+          <div><TrendySneaker number="04" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
+        </Carousel>
 
-      <ul className="trendySneakers__sponsors">
-        <li><img src={stockX} alt=""/></li>
-        <li><img src={fightClub} alt=""/></li>
-        <li><img src={stadiumGoods} alt=""/></li>
-        <li><img src={goat} alt=""/></li>
-      </ul>
+        <ul className="trendySneakers__sponsors">
+          <li><img src={stockX} alt=""/></li>
+          <li><img src={fightClub} alt=""/></li>
+          <li><img src={stadiumGoods} alt=""/></li>
+          <li><img src={goat} alt=""/></li>
+        </ul>
+      </div>
     </div>
-  </div>
-)
+  )
 }
 
 export default TrendySneakers;

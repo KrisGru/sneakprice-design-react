@@ -1,0 +1,168 @@
+/* extra small devices (phones, max: 600px) */
+@media only screen and (max-width: 600px){
+//background padding
+  .bg {
+    padding: 0 8px;
+  }
+// change in all website
+  p, h3 {
+    font-size: 0.8rem;
+  }
+//changes in Select.js component
+  label {
+    font-size: 0.7rem;
+    margin-left: 40px;
+  }
+  #select {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+// section 1 TopBar.js
+  .navTopBar {
+    max-height: 150px;
+  }
+  .topBar {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 15px 0px;
+    li {
+      flex-basis: 100%;
+      padding: 7px 0px;
+    }
+    &__tabs {
+      text-align: -webkit-left;
+      white-space: nowrap;
+    }
+    &__variables {
+      justify-content: flex-end;
+      margin-right: 10%;
+    }
+  }
+// section 2 search
+  .search__title {
+    padding: 80px 40px 120px;
+  }
+  .search div input {
+    width: 70%;
+    height: 45px;
+    border: solid 5px lightgray;
+    padding: 0 30px;
+  }
+  .search div input:hover, .search div input:focus {
+    border: solid 5px gray;
+  }
+  .search__lastChoosen {
+    font-size: 0.6rem;
+  }
+  .search div svg {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: calc(15% + 10px);
+  }
+  .search div .submitIcon {
+    margin-left: calc(85% - 40px);
+  }
+// section 3 trendySneaker
+  .trendySneakers {
+    padding: 140px 0 40px 0;
+    &__sponsors {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 70px 0 60px;
+    }
+  }
+// section 4 sneakerList
+  .sneakerList {
+    padding: 70px 20px;
+    &__top {
+      padding: 0 10px;
+      div>p {
+        display: none;
+      }
+    }
+    &__contentHeader {
+      display: none;
+    }
+  }
+  // reusable component
+  .sneakerItem {
+    padding: 15px 2px;
+    &__image {
+      div.img1, div.img2 {
+        width: 70px;
+        height: 70px;
+        margin-top: 20px;
+      }
+    }
+    &__data {
+      padding-left: 5px;
+    }
+  }
+
+  .sneakerItem:hover {
+    background-color: #262626;
+    transition: 0.4s;
+  }
+
+
+  .basicData {
+    &__specificName {
+      top: 20px;
+      white-space: nowrap;
+    }
+    &__name {
+      position: absolute;
+      top: 40px;
+    }
+    &__brand {
+      position: absolute;
+      left: -70px;
+      top: 0px;
+      border: none;
+    }
+  }
+
+  .awgPrice {
+    margin-top: 20px;
+    padding-right: 5%;
+    &__price {
+      border-radius: 25px;
+      background-color: rgb(0, 97, 32, 0.4);
+      padding: 10px 25px;
+      color: rgb(26, 255, 26);
+      opacity: 0.95;
+    }
+    &__price:hover {
+      color: rgb(0, 355, 0);
+      background-color: rgb(0, 97, 32, 0.6);
+    }
+    &__btn {
+      display: none;
+    }
+  }
+
+  .pagination {
+    padding: 20px 0;
+  }
+//section 5 footer
+  .bgFooter {
+    padding: 50px 0px 30px;
+  }
+
+  .footer {
+    padding-left: 0px;
+    justify-content: space-around;
+    .part1 .col {
+      padding: 0 10px;
+    }
+    .part1 .bottom {
+      padding-top: 10px;
+      margin-top: 10px;
+      display: block;
+    }
+  }
+
+  .scrollBtnDiv {
+    display: none;
+  }
+}

@@ -1,15 +1,10 @@
-// szablon z sm tylko popraw dopasuj go troche i będzie klasa
-/* medium devices (phones, min: 600px and max: 767.98px) */
+/* medium devices (tablets, min: 768px and max: 991.98px) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px){
 //background padding
   .bg {
     padding: 5px 30px;
   }
-// change in all website
-  p, h3 {
-    font-size: 0.8rem;
-  }
-//changes in reasuble component
+//changes in Select.js component
   label {
     font-size: 0.6rem;
     margin-left: 20px;
@@ -26,7 +21,7 @@
       text-align: start;
       margin-left: 15px;
       a {
-        display: inline-block;
+        white-space: nowrap;
         margin: 3px 0;
       }
     }
@@ -44,6 +39,7 @@
   .search div input:hover, .search div input:focus {
     border: solid 7px gray;
   }
+  
   .search__lastChoosen {
     font-size: 0.6rem;
   }
@@ -76,15 +72,6 @@
   .sneakerItem {
     padding: 15px 20px 15px 20px;
     &__data {
-      padding-left: 10px;
-    }
-  }
-
-  .basicData {
-    &__name {
-      padding-right: 10px;
-    }
-    &__brand {
       padding-left: 10px;
     }
   }

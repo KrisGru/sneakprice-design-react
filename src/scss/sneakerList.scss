@@ -86,13 +86,13 @@
 }
 
 .sneakerItem:hover {
-  background-color: #141414;
+  background-color: #262626;
   transition: 0.4s;
 }
 
 .basicData {
   display: flex;
-  position:relative;
+  position: relative;
   padding: 5px 0;
   &__specificName {
     position: absolute;
