@@ -4,18 +4,17 @@ import Search from './Search';
 import TrendySneakers from './TrendySneakers';
 import SneakerList from './SneakerList';
 import Footer from './Footer';
+import logo from '../assets/Sneakprice.png';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <TopBar />
-        <Search />
-        <TrendySneakers />
-        <SneakerList />
-        <Footer />
-      </div>
-    </>
+    <div className="App">
+      <TopBar logo={logo}/>
+      <Search />
+      <TrendySneakers />
+      <SneakerList />
+      <Footer logo={logo}/>
+    </div>
   );
 }
 

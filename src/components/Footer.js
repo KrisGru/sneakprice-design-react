@@ -1,8 +1,7 @@
 import SelectSizes from './reusable/Select.js';
-import logo from '../assets/Sneakprice.png';
 import { BsArrowUp } from 'react-icons/bs';
 
-const Footer =() => (
+const Footer = ({ logo }) => (
   <div className="bgFooter">
     <div className="footer">
       <div className="part1">
@@ -21,9 +20,9 @@ const Footer =() => (
           </div>
         </div>
         <div className="bottom">
-        <p>&copy; 2021 All Copyrights Reserved - Sneakprice</p>
-        <span><SelectSizes label="CURRENCY" name="currency" option1="USD" option2="GBP" option3="EUR" option4="PLN" /></span>
-      </div>
+          <p>&copy; 2021 All Copyrights Reserved - Sneakprice</p>
+          <span><SelectSizes label="CURRENCY" name="currency" option1="USD" option2="GBP" option3="EUR" option4="PLN" /></span>
+        </div>
       </div>
       <div className="scrollBtnDiv"><button className="scrollBtn" onClick={() => document.documentElement.scrollTop = 0} title="Go to top"><BsArrowUp/>Scroll to top</button></div>
     </div>

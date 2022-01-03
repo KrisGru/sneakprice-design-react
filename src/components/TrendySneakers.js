@@ -36,7 +36,6 @@ const TrendySneakers = () => {
           <div><TrendySneaker number="03" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
           <div><TrendySneaker number="04" brand="nike" price="110" name="Nike Air VaporMax 2021 FK"/></div>
         </Carousel>
-
         <ul className="trendySneakers__sponsors">
           <li><img src={stockX} alt=""/></li>
           <li><img src={fightClub} alt=""/></li>
