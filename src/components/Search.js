@@ -3,8 +3,6 @@ import shoppingBags from '../assets/Shopping Bags.png';
 import { BiSubdirectoryLeft } from 'react-icons/bi';
 import { GrFormSearch } from 'react-icons/gr';
 
-
-
 const Search = () => {
   const [input, setInput] = useState('');
   return (

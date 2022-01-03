@@ -1,8 +1,8 @@
 import SelectSizes from './reusable/Select.js';
-import logo from '../assets/Sneakprice.png';
+
 import { BsArrowUp } from 'react-icons/bs';
 
-const Footer =() => (
+const Footer = ({ logo }) => (
   <div className="bgFooter">
     <div className="footer">
       <div className="part1">

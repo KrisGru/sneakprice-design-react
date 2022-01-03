@@ -1,3 +1,4 @@
+import logo from '../assets/Sneakprice.png';
 import '../scss/main.scss';
 import TopBar from './TopBar.js';
 import Search from './Search';
@@ -7,15 +8,13 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <TopBar />
-        <Search />
-        <TrendySneakers />
-        <SneakerList />
-        <Footer />
-      </div>
-    </>
+    <div className="App">
+      <TopBar logo={logo}/>
+      <Search />
+      <TrendySneakers />
+      <SneakerList />
+      <Footer logo={logo}/>
+    </div>
   );
 }
 

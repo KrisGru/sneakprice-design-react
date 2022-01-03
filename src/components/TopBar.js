@@ -1,9 +1,8 @@
 import Select from './reusable/Select.js';
 import { BsFillLightningChargeFill } from 'react-icons/bs';
 import { FaShoppingCart } from 'react-icons/fa';
-import logo from '../assets/Sneakprice.png'
 
-const TopBar = () => (
+const TopBar = ({ logo }) => (
   <div className="bgTopBar bg">
     <nav className="navTopBar">
       <ul className="topBar">
