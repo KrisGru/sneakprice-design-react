@@ -21,9 +21,9 @@ const Footer = ({ logo }) => (
           </div>
         </div>
         <div className="bottom">
-        <p>&copy; 2021 All Copyrights Reserved - Sneakprice</p>
-        <span><SelectSizes label="CURRENCY" name="currency" option1="USD" option2="GBP" option3="EUR" option4="PLN" /></span>
-      </div>
+          <p>&copy; 2021 All Copyrights Reserved - Sneakprice</p>
+          <span><SelectSizes label="CURRENCY" name="currency" option1="USD" option2="GBP" option3="EUR" option4="PLN" /></span>
+        </div>
       </div>
       <div className="scrollBtnDiv"><button className="scrollBtn" onClick={() => document.documentElement.scrollTop = 0} title="Go to top"><BsArrowUp/>Scroll to top</button></div>
     </div>

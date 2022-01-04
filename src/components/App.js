@@ -5,6 +5,7 @@ import Search from './Search';
 import TrendySneakers from './TrendySneakers';
 import SneakerList from './SneakerList';
 import Footer from './Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
