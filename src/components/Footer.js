@@ -1,5 +1,4 @@
 import SelectSizes from './reusable/Select.js';
-
 import { BsArrowUp } from 'react-icons/bs';
 
 const Footer = ({ logo }) => (
