@@ -29,9 +29,9 @@ $ npm start
 
 ## Acknowledgements
 - This project came about thanks to my friend [Sebastian Pobocha](https://github.com/Sebastp) who shared his design made in photoshop for me. 
-- Thanks [Sebastian Pobocha](https://github.com/Sebastp) for good advices and helping in choosing tools
+- Thanks [Sebastp](https://github.com/Sebastp) for good advices and helping in choosing tools
 - I supported myself with the websamuraj [course](https://www.udemy.com/course/kurs-react-od-podstaw/learn/lecture/22304728?start=0#overview) from udemy. Thanks websamuraj!
 
 ## Contact
 Created by [@Krzysztof Gruszczyński](https://www.linkedin.com/in/krzysztof-gruszczy%C5%84ski-7aa43a206/) - feel free to contact me!
-Design in photoshop created [Sebastian Pobocha](https://github.com/Sebastp)
+Design in photoshop created [Sebastp](https://github.com/Sebastp)
